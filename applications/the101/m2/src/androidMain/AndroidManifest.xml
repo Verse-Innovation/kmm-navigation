@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <application>
+    <activity
+        android:name="io.verse.the101.navigation.m2.view.SettingsActivity"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:exported="false">
+
+      <intent-filter android:autoVerify="true">
+        <action android:name="/settings" />
+        <action android:name="/settings/fragment1" />
+        <action android:name="/settings/fragment2/fragment3" />
+        <action android:name="/settings/fragment2/fragment4" />
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+
+    </activity>
+
+  </application>
+
+</manifest>

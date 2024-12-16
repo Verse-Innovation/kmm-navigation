@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    tools:context="io.verse.the101.navigation.m1.view.HomeActivity"
+    >
+
+  <FrameLayout
+      android:id="@+id/fragment_holder"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layout_constraintTop_toTopOf="parent"/>
+
+  <TextView
+      android:id="@+id/tv_home"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Home"
+      android:textSize="24sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent"/>
+
+  <Button
+      android:id="@+id/btn_settings"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Navigate to Settings"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintBottom_toTopOf="@id/btn_settings_2"/>
+
+  <Button
+      android:id="@+id/btn_settings_2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Navigate to Settings Frag 2"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintBottom_toTopOf="@id/btn_settings_frag2_frag3"/>
+
+  <Button
+      android:id="@+id/btn_settings_frag2_frag3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Navigate to Settings Frag 2 Frag 3"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintBottom_toTopOf="@id/btn_settings_frag2_frag4"/>
+
+  <Button
+      android:id="@+id/btn_settings_frag2_frag4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Navigate to Settings Frag 2 Frag 4"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintBottom_toTopOf="@id/btn_settings_frag1"/>
+
+  <Button
+      android:id="@+id/btn_settings_frag1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Navigate to Settings Frag 1 via Action"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintBottom_toTopOf="@id/btn_settings_frag2_frag4_action"/>
+
+  <Button
+      android:id="@+id/btn_settings_frag2_frag4_action"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Navigate to Settings Frag 2 Frag 4 via Action"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

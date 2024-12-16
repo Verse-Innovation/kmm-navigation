@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="facebook_app_id" translatable="false">668594713261013</string>
+  <string name="facebook_client_token" translatable="false">8c2e12c724fef3f1adbf168a6e01c556</string>
+  <string name="facebook_app_name">PublicVibe(formerly NewsDistill)</string>
+</resources>

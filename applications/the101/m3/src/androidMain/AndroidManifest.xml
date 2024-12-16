@@ -1,0 +1,51 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <application>
+
+    <activity
+        android:name="io.verse.the101.navigation.m3.view.ActivityA"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:exported="false">
+
+      <intent-filter android:autoVerify="true">
+        <action android:name="/a" />
+      </intent-filter>
+
+    </activity>
+
+    <activity
+        android:name="io.verse.the101.navigation.m3.view.ActivityB"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:exported="false">
+
+      <intent-filter android:autoVerify="true">
+        <action android:name="/b" />
+      </intent-filter>
+
+    </activity>
+
+    <activity
+        android:name="io.verse.the101.navigation.m3.view.c.ActivityC"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:exported="false">
+
+      <intent-filter android:autoVerify="true">
+        <action android:name="/c" />
+      </intent-filter>
+
+    </activity>
+    <activity
+        android:name="io.verse.the101.navigation.m3.view.ActivityD"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:exported="false">
+
+      <intent-filter android:autoVerify="true">
+        <action android:name="/d" />
+      </intent-filter>
+
+    </activity>
+
+
+  </application>
+
+</manifest>
